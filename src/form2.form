@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="form2">
+  <grid id="27dc6" binding="panel2" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="621"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="f40de" class="javax.swing.JMenuBar" binding="menuBar1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="c5fe7" class="javax.swing.JMenu" binding="archivo" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints/>
+            <properties>
+              <text value="Archivo"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="627ad" class="javax.swing.JMenuItem" binding="subir" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <text value="Subir"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="47d55" class="javax.swing.JMenuItem" binding="exportar" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <text value="Exportar"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="c9e66" class="javax.swing.JMenuItem" binding="salir" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <text value="Salir"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <scrollpane id="11f47" binding="tarea">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="e89ba" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
